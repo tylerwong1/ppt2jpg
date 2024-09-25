@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "PPT to PDF Converter",
+  "version": "1.0",
+  "permissions": ["downloads", "activeTab", "scripting", "storage", "cookies"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["*://*/*"]
+}
