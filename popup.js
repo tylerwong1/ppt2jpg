@@ -20,21 +20,6 @@ function downloadAndConvertPPT() {
     link.href.includes("download_frd=1"),
   );
 
-  const cookies = document.cookie;
-
-  // chrome.cookies.getAll(
-  //   {
-  //     domain: "https://ufl.instructure.com",
-  //     session: True,
-  //   },
-  //   function (cookies) {
-  //     if (cookies) {
-  //       console.log("Cookies retrieved:", cookies);
-  //     } else {
-  //       console.error("unable to get cookies");
-  //     }
-  //   },
-  // );
   console.log(links);
   console.log(pptLinks);
   if (links.length === 0) {
